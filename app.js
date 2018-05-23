@@ -13,4 +13,12 @@ const element = {
     }
 };
 
-Didact.render(<div>123</div>, document.getElementById('app'));
+const app = (
+  <div>
+    <input value="foo" type="text" />
+    <a href="/bar" >link</a>
+    <span></span>
+  </div>
+)
+
+Didact.render(app, document.getElementById('app'));
